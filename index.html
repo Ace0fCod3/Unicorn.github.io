@@ -1,0 +1,159 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HackerTyper - neildaniel000 Version 2.0</title>
+        <link rel="icon" href="https://hackertyper.net/img/favicon.ico"/>
+        <style>
+             body {
+                width: 99%;
+                height: 100%;
+                background-color: black;
+                overflow-wrap: break-word;
+                overflow: hidden;
+            }
+            .terminal {
+                color: lightgreen;
+                width: 100%;
+                height: 90vh;
+                text-shadow: 0px 0px 3px white;
+                font-family: monospace;
+                font-size: 1.3em;
+                overflow-y: scroll;
+                padding-right: 1em;
+                animation-duration: 0.5s;
+                animation-name: colorthing;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+            }
+            @keyframes colorthing {
+                from {
+                    color: rgb(0, 255, 0);
+                }
+                to {
+                    color: rgb(0, 200, 0);
+                }
+            }
+        </style>
+    </head>
+</head>
+<body>
+
+<br>
+<center>
+            <a target="blank" href="https://www.googletagmanager.com/gtag/js?id=UA-172366112-1">Click here for the original code<a>
+              <br>
+        <div class="tooltip">
+<br>
+          About
+  <span class="tooltiptext">
+    This is my attempt at making a HackerTyper.</span>
+</div>
+<style>
+  
+  .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  color: white;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 45%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+    <body>
+        <div class="terminal" id="terminal">
+        </div>
+        </center>
+
+        <script>
+            var code = `
+
+
+
+
+//Hold a key to make the  code  run.
+//Copyright 2020 Vihaan Nandwanib -  Plnkr.co  All  rights  reserved.
+//   Not really.   I  don't  have  a   copyright.  I   just   wanted  to   sound     important.  https://www.googletagmanager.com/gtag/js?id=UA-172366112-1  for  the     original  code.     I                  have        no                 idea            what          it            does.     I           just           needed           it             to                be                  long.    
+(function(){
+
+var data = {
+"resource": {
+  "version":"UNICORN",
+  
+  "macros":[{
+      "function":"Alarks Child"
+    },{
+      "function":"UNICORN"
+    }],
+  "tags":[{
+      "function":"100% sure",
+      "once_per_event":true,
+      "vtp_containerId":["macro",1],
+      "tag_id":alark is dumb
+    }],
+  "predicates":[{
+      "function":"_eq",
+      "arg0":["macro",0],
+      "arg1":"gtm.js"
+    }],
+  "rules":[
+    [["if",0],["add",0]]]
+},
+"runtime":[]
+https://hackertyper.net/main.css?v=1.22
+
+};
+
+var alark+someone I cannot say the name of="function"==typeof Object.create?=UNICORN
+
+{var b=function(){};b.prototype=UNICORN;return new b},
+
+Ok so now I also have to talk normally cause Alark won't understand.
+
+by the way no offence and this is just a joke don't take it seriously...
+
+
+		for (i = 2; i < 18; i++)`;
+            var i = 0;
+            document.addEventListener("keydown", function (){
+                terminal.innerText += code.slice(i, i+10);
+                i += 10;
+                if (i > code.length) {i=0;}
+            });
+            setInterval(function (){
+                var term = document.getElementById("terminal");
+                term.scrollTop = term.scrollHeight;
+            }, 100);
+            </script>
+    </body>
+</html>
